@@ -1,0 +1,35 @@
+APP PROCESO TUTORIAL — Preparatoria 25 Unidad Escobedo (AD 2026)
+================================================================
+Cómo abrirla
+  Abra index.html en Chrome o Edge (doble clic). No requiere servidor.
+  Los datos quedan en el navegador (localStorage). Para resetear: en la consola
+  ejecute localStorage.removeItem("prepa25_tutorias_v1") y recargue.
+
+Accesos precargados
+  Tutorías (control total):  900001 / Tutorias2026
+  Docente Armida (EOyE 120,121,123-126): 2026001172 / Armida2026
+  Docente Isabel (EOyE 101-104,122): 800101 / Isabel2026
+  Docente Selena (EOyE 127): 800127 / Selena2026
+  Tutor de cualquier grupo: T101 … T127 / Tutor101 … Tutor127
+
+Qué viene precargado
+  • 1,091 estudiantes de los grupos 101 a 127 (listas de asistencia AD2026)
+  • Calificación del examen indicativo de medio término de EOyE
+  • 23 estudiantes NEE con situación, análisis y estrategias de aula
+  • Ponderaciones default (indicativo 15, parcial 10, global 25, evidencias 10, PIA 20;
+    Desarrollo Humano 20 por etapa × 4 + PIA 20)
+
+Roles
+  Docente de materia: asistencia (alerta “Alumno en riesgo”), tareas requisito,
+    evidencias por etapa (tope 80 si falta requisito), PIA, conducta, ajustes NEE,
+    impresión de lista y control formativo.
+  Docente tutor: panorama del grupo sin contactos familiares, mismos registros
+    académicos del grupo e incidencias de hora tutorial.
+  Tutorías: altas de docentes (usuario = número de empleado y contraseña visible),
+    cambio de ponderaciones, NEE, expedientes de cita, alertas de captura,
+    listado de riesgo por grupo, estadísticas de incidencias y de citas.
+
+Nota
+  Es una propuesta funcional de escritorio para acompañar el documento
+  “Proceso Tutorial”. SIASE sigue siendo el registro oficial. No publica
+  diagnósticos clínicos: el docente solo ve apoyos de aula autorizados.
